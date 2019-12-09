@@ -18,6 +18,7 @@ public class ChangeScenes : MonoBehaviour
 
     public void SceneChange(string escena)
     {
+        //Metodo para cambiar escena mandandole como parametro el nombre de la escena a cambiar
         SceneManager.LoadScene(escena);
     }
 
